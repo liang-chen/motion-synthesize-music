@@ -2,7 +2,7 @@
 CC = g++
 TARGET = demo
 SOURCE = main.cpp
-CFLAGS = -Wall
+CFLAGS = -Wall -std=c++11
 
 OPENCV_INCLUDE_PATH = /usr/local/Cellar/opencv/2.4.13/include/
 OPENCV_LINK_PATH = /usr/local/lib/
